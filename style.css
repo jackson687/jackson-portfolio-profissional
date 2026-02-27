@@ -21,17 +21,45 @@ html {
 
 body {
   font-family: 'Inter', Arial, sans-serif;
-  background:
-    radial-gradient(circle at top right, rgba(96, 165, 250, 0.12), transparent 32%),
-    radial-gradient(circle at bottom left, rgba(59, 130, 246, 0.08), transparent 28%),
-    var(--bg);
+  background: var(--bg);
   color: var(--text);
   line-height: 1.7;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(rgba(6, 12, 22, 0.86), rgba(6, 12, 22, 0.9)),
+    url('wp2848555.jpg') center center / cover no-repeat;
+  z-index: -2;
+  transform: scale(1.04);
+  animation: techBackground 18s ease-in-out infinite alternate;
+  filter: brightness(0.62) saturate(1.08);
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at top right, rgba(96, 165, 250, 0.1), transparent 32%),
+    radial-gradient(circle at bottom left, rgba(59, 130, 246, 0.08), transparent 28%),
+    rgba(8, 14, 24, 0.28);
+  z-index: -1;
 }
 
 .container {
   width: min(1100px, calc(100% - 48px));
   margin: 0 auto;
+.hero,
+main,
+.footer {
+  position: relative;
+  z-index: 1;
 }
 
 .hero {
@@ -122,7 +150,7 @@ h1 {
 .card {
   padding: 28px;
   border-radius: 20px;
-  background: var(--panel);
+  background: rgba(10, 17, 30, 0.84);
   border: 1px solid var(--panel-border);
   box-shadow: var(--shadow);
   backdrop-filter: blur(10px);
@@ -185,5 +213,20 @@ a {
 
   .two-columns {
     grid-template-columns: 1fr;
+  }
+  @keyframes techBackground {
+  0% {
+    transform: scale(1.04) translate(0, 0);
+    background-position: 50% 50%;
+  }
+  100% {
+    transform: scale(1.09) translate(-8px, -6px);
+    background-position: 52% 48%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::before {
+    animation: none;
   }
 }
