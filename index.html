@@ -3,87 +3,145 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfólio profissional de Jackson Monteiro de Oliveira" />
+  <meta name="description" content="Portfólio profissional de Jackson Monteiro de Oliveira, graduado em Sistemas de Informação, com projetos em desenvolvimento web, interfaces e soluções digitais." />
+  <meta name="author" content="Jackson Monteiro de Oliveira" />
+  <meta name="theme-color" content="#0b0f19" />
+  <meta property="og:title" content="Jackson Monteiro de Oliveira | Portfólio" />
+  <meta property="og:description" content="Projetos, tecnologias e experiência prática em desenvolvimento web e soluções digitais." />
+  <meta property="og:type" content="website" />
   <title>Jackson Monteiro de Oliveira | Portfólio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <p class="eyebrow">Portfólio Profissional</p>
-      <h1>Jackson Monteiro de Oliveira</h1>
-      <p class="subtitle">Graduado em Sistemas de Informação com foco em desenvolvimento web e interfaces modernas.</p>
-      <div class="hero-actions">
-        <a href="https://github.com/jackson687" target="_blank" rel="noopener noreferrer" class="button primary">GitHub</a>
-        <a href="https://www.linkedin.com/in/jackson-oliveira-550599194" target="_blank" rel="noopener noreferrer" class="button secondary">LinkedIn</a>
-      </div>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Voltar ao início">JM</a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#formacao">Formação</a>
+        <a href="#contato">Contato</a>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <section class="section">
-      <div class="container grid two-columns">
-        <div class="card reveal">
-          <h2>Sobre</h2>
-          <p>
-            Profissional com formação em Sistemas de Informação, com base em desenvolvimento web e interesse em construir soluções objetivas, organizadas e com boa experiência de uso.
-          </p>
-        </div>
-        <div class="card reveal">
-          <h2>Objetivo</h2>
-          <p>
-            Atuar em projetos de desenvolvimento front-end e interfaces web, contribuindo com organização, aprendizado contínuo e foco em entrega consistente.
-          </p>
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="container reveal">
+        <p class="eyebrow">Portfólio Profissional</p>
+        <h1>Jackson Monteiro de Oliveira</h1>
+        <p class="subtitle">Graduado em Sistemas de Informação, com foco em desenvolvimento web, interfaces modernas e soluções digitais funcionais.</p>
+        <div class="hero-actions">
+          <a href="#projetos" class="button primary">Ver projetos</a>
+          <a href="https://github.com/jackson687" target="_blank" rel="noopener noreferrer" class="button secondary">GitHub</a>
+          <a href="https://www.linkedin.com/in/jackson-oliveira-550599194" target="_blank" rel="noopener noreferrer" class="button secondary">LinkedIn</a>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="sobre" aria-labelledby="titulo-sobre">
+      <div class="container grid two-columns">
+        <article class="card reveal">
+          <p class="eyebrow">Sobre</p>
+          <h2 id="titulo-sobre">Perfil profissional</h2>
+          <p>Profissional formado em Sistemas de Informação, com base em desenvolvimento web e interesse em construir aplicações organizadas, objetivas e com boa experiência de uso.</p>
+        </article>
+        <article class="card reveal">
+          <p class="eyebrow">Objetivo</p>
+          <h2>Próximo passo</h2>
+          <p>Atuar em projetos de tecnologia, desenvolvimento front-end, suporte e soluções digitais, contribuindo com organização, aprendizado contínuo e foco em entrega consistente.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="titulo-tecnologias">
       <div class="container">
         <div class="section-header reveal">
           <p class="eyebrow">Competências</p>
-          <h2>Tecnologias</h2>
+          <h2 id="titulo-tecnologias">Tecnologias</h2>
         </div>
-        <div class="skills reveal">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>Python</span>
-          <span>SQL</span>
-          <span>Java</span>
+        <div class="skills reveal" aria-label="Lista de tecnologias">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>SQL</span><span>Java</span>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="projetos" aria-labelledby="titulo-projetos">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Projetos</p>
+          <h2 id="titulo-projetos">Projetos em destaque</h2>
+          <p class="section-description">Projetos próprios usados para aplicar tecnologia a problemas reais.</p>
+        </div>
+        <div class="grid project-grid">
+          <article class="card project-card reveal">
+            <div class="project-meta">Geoprocessamento · Web</div>
+            <h3>AGROSATE</h3>
+            <p>Plataforma de análise socioambiental de imóveis rurais, combinando dados geoespaciais, indicadores de risco e geração de relatórios para apoiar análises de conformidade.</p>
+            <div class="project-tags"><span>JavaScript</span><span>PostgreSQL</span><span>PostGIS</span><span>Geodados</span></div>
+          </article>
+          <article class="card project-card reveal">
+            <div class="project-meta">Negócios · Web</div>
+            <h3>Modernizando seu Negócio</h3>
+            <p>Projeto de presença digital voltado a pequenos negócios, com proposta de sites e automações simples para melhorar atendimento, organização e aquisição de clientes.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>IA</span></div>
+          </article>
+          <article class="card project-card reveal">
+            <div class="project-meta">Front-end · Portfólio</div>
+            <h3>Portfólio Profissional</h3>
+            <p>Página responsiva e acessível para apresentar perfil, competências e projetos, desenvolvida com HTML, CSS e JavaScript sem frameworks.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Acessibilidade</span></div>
+            <a class="text-link" href="https://github.com/jackson687/jackson-portfolio-profissional" target="_blank" rel="noopener noreferrer">Ver código no GitHub →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="formacao" aria-labelledby="titulo-formacao">
       <div class="container grid two-columns">
-        <div class="card reveal">
-          <h2>Áreas de Interesse</h2>
-          <ul>
-            <li>Desenvolvimento Front-end</li>
-            <li>Interfaces Web</li>
-            <li>Soluções Digitais</li>
-          </ul>
-        </div>
-        <div class="card reveal">
-          <h2>Contato</h2>
-          <p><strong>E-mail:</strong> <a href="mailto:jackson.jmo05@gmail.com">jackson.jmo05@gmail.com</a></p>
-          <p><strong>GitHub:</strong> <a href="https://github.com/jackson687" target="_blank" rel="noopener noreferrer">github.com/jackson687</a></p>
-          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jackson-oliveira-550599194" target="_blank" rel="noopener noreferrer">linkedin.com/in/jackson-oliveira-550599194</a></p>
-        </div>
+        <article class="card reveal">
+          <p class="eyebrow">Formação</p>
+          <h2 id="titulo-formacao">Sistemas de Informação</h2>
+          <p>Graduação em Sistemas de Informação, com base em desenvolvimento de software, banco de dados e tecnologia da informação.</p>
+        </article>
+        <article class="card reveal">
+          <p class="eyebrow">Experiência prática</p>
+          <h2>Projetos próprios</h2>
+          <p>Desenvolvimento e evolução de projetos web próprios, trabalhando interface, lógica, dados, organização de código e resolução de problemas.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contato" aria-labelledby="titulo-contato">
+      <div class="container">
+        <article class="card contact-card reveal">
+          <div>
+            <p class="eyebrow">Contato</p>
+            <h2 id="titulo-contato">Vamos conversar?</h2>
+            <p>Estou aberto a oportunidades e projetos na área de tecnologia.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:jackson.jmo05@gmail.com">Enviar e-mail</a>
+            <a class="button secondary" href="mailto:jackson.jmo05@gmail.com?subject=Solicita%C3%A7%C3%A3o%20de%20curr%C3%ADculo">Solicitar currículo</a>
+          </div>
+        </article>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container">
+    <div class="container footer-content">
       <p>© 2026 Jackson Monteiro de Oliveira</p>
+      <a href="#inicio">Voltar ao topo ↑</a>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
