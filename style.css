@@ -55,6 +55,8 @@ body::after {
 .container {
   width: min(1100px, calc(100% - 48px));
   margin: 0 auto;
+}
+
 .hero,
 main,
 .footer {
@@ -112,6 +114,12 @@ h1 {
 
 .button:hover {
   transform: translateY(-2px);
+}
+
+.button:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--accent-strong);
+  outline-offset: 3px;
 }
 
 .button.primary {
@@ -205,16 +213,7 @@ a {
   transform: translateY(0);
 }
 
-@media (max-width: 800px) {
-  .hero {
-    min-height: auto;
-    padding-top: 72px;
-  }
-
-  .two-columns {
-    grid-template-columns: 1fr;
-  }
-  @keyframes techBackground {
+@keyframes techBackground {
   0% {
     transform: scale(1.04) translate(0, 0);
     background-position: 50% 50%;
@@ -225,8 +224,47 @@ a {
   }
 }
 
+@media (max-width: 800px) {
+  .container {
+    width: min(100% - 32px, 1100px);
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 72px;
+  }
+
+  .two-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 22px;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
   body::before {
     animation: none;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
