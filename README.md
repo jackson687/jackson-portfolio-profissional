@@ -17,9 +17,6 @@ Sou graduado em Sistemas de Informação, com interesse em desenvolvimento web, 
 
 ## Projetos em destaque
 
-### AGROSATE
-Projeto de análise socioambiental de imóveis rurais com uso de dados geoespaciais, indicadores de risco e geração de relatórios.
-
 ### Modernizando seu Negócio
 Projeto voltado à presença digital de pequenos negócios, com sites e automações simples para apoiar atendimento, organização e aquisição de clientes.
 
