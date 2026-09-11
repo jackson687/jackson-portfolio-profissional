@@ -17,6 +17,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 84px;
 }
 
 body {
@@ -57,6 +58,73 @@ body::after {
   margin: 0 auto;
 }
 
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 100;
+  transform: translateY(-150%);
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: var(--accent-strong);
+  color: #06101f;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  border-bottom: 1px solid var(--panel-border);
+  background: rgba(6, 12, 22, 0.78);
+  backdrop-filter: blur(14px);
+}
+
+.nav-wrap {
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent), #3b82f6);
+  color: #06101f;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.nav a,
+.footer a,
+.text-link {
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+.nav a:hover,
+.footer a:hover,
+.text-link:hover {
+  text-decoration: underline;
+}
+
 .hero,
 main,
 .footer {
@@ -65,7 +133,7 @@ main,
 }
 
 .hero {
-  min-height: 80vh;
+  min-height: 76vh;
   display: flex;
   align-items: center;
   padding: 96px 0 72px;
@@ -86,14 +154,26 @@ h1 {
   max-width: 760px;
 }
 
-.subtitle {
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.subtitle,
+.section-description {
   margin-top: 18px;
-  max-width: 700px;
+  max-width: 760px;
   font-size: clamp(1rem, 2vw, 1.2rem);
   color: var(--muted);
 }
 
-.hero-actions {
+.section-description {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.hero-actions,
+.contact-actions {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
@@ -155,6 +235,10 @@ a:focus-visible {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.project-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .card {
   padding: 28px;
   border-radius: 20px;
@@ -169,27 +253,52 @@ a:focus-visible {
   color: var(--muted);
 }
 
-.card ul {
-  list-style: none;
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
-.card li + li {
-  margin-top: 8px;
+.project-meta {
+  color: var(--accent-strong);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
+.project-tags,
 .skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 10px;
 }
 
+.project-tags span,
 .skills span {
-  padding: 12px 16px;
+  padding: 9px 13px;
   border-radius: 999px;
   background: rgba(15, 23, 42, 0.7);
   border: 1px solid var(--panel-border);
   color: var(--text);
   font-weight: 500;
+  font-size: 0.92rem;
+}
+
+.text-link {
+  margin-top: auto;
+  font-weight: 600;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.contact-actions {
+  margin-top: 0;
 }
 
 a {
@@ -199,7 +308,13 @@ a {
 .footer {
   padding: 12px 0 40px;
   color: var(--muted);
-  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
 }
 
 .reveal {
@@ -224,9 +339,25 @@ a {
   }
 }
 
+@media (max-width: 900px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 800px) {
   .container {
     width: min(100% - 32px, 1100px);
+  }
+
+  .nav-wrap {
+    align-items: flex-start;
+    padding: 12px 0;
+  }
+
+  .nav {
+    gap: 12px 16px;
+    justify-content: flex-end;
   }
 
   .hero {
@@ -241,11 +372,23 @@ a {
   .card {
     padding: 22px;
   }
+
+  .contact-card,
+  .footer-content {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 520px) {
-  .hero-actions {
+  .nav {
+    font-size: 0.9rem;
+  }
+
+  .hero-actions,
+  .contact-actions {
     flex-direction: column;
+    width: 100%;
   }
 
   .button {
