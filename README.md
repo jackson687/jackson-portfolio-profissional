@@ -1,25 +1,53 @@
-# Jackson Monteiro de Oliveira
+# Jackson Monteiro
 
-**Graduado em Sistemas de Informação**  
-Foco em desenvolvimento web, interfaces modernas e soluções digitais funcionais.
+## Suporte de TI | Help Desk | Suporte N1
 
-## Sobre
-Profissional com formação em Sistemas de Informação, com base em desenvolvimento web e interesse em criar aplicações organizadas, objetivas e com boa experiência de uso.
+Profissional formado em Sistemas de Informação, em transição para a área de Suporte de TI.
 
-## Tecnologias
-- HTML
-- CSS
-- JavaScript
-- Python
-- SQL
-- Java
+Meu objetivo é demonstrar, por meio de projetos práticos e documentação, minha capacidade de investigar problemas, orientar usuários e registrar soluções de forma organizada.
 
-## Áreas de Interesse
-- Desenvolvimento Front-end
-- Interfaces Web
-- Soluções Digitais
+## Áreas de interesse
+
+- Suporte técnico e Help Desk
+- Suporte N1 e atendimento ao usuário
+- Windows 10 e 11
+- Manutenção e configuração de computadores
+- Redes básicas, Wi-Fi, TCP/IP, DNS e DHCP
+- Microsoft 365 e Google Workspace
+- Suporte remoto
+- Diagnóstico e solução de problemas
+- Documentação técnica e base de conhecimento
+
+## Projetos práticos
+
+Novos laboratórios e materiais de suporte serão adicionados gradualmente a este portfólio.
+
+Cada projeto terá:
+
+- Problema apresentado
+- Sintomas observados
+- Perguntas de diagnóstico
+- Procedimento de investigação
+- Solução aplicada
+- Cuidados e limitações
+- Critérios para encaminhamento ou escalação
+
+## Conhecimentos complementares
+
+- Git e GitHub
+- Markdown
+- PowerShell básico
+- Organização de procedimentos técnicos
+- Comunicação clara com usuários
+
+## Formação
+
+Sistemas de Informação
 
 ## Contato
+
 - **GitHub:** [jackson687](https://github.com/jackson687)
 - **LinkedIn:** [Jackson Oliveira](https://www.linkedin.com/in/jackson-oliveira-550599194)
-- **E-mail:** jackson.jmo05@gmail.com
+- **E-mail:** [jackson.jmo05@gmail.com](mailto:jackson.jmo05@gmail.com)
+
+> Este portfólio apresenta estudos, laboratórios e documentação prática. Não representa experiências profissionais que ainda não foram realizadas.
