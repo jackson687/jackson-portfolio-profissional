@@ -38,6 +38,12 @@ Cenários de estudo para praticar IPv4, gateway, DNS, DHCP e testes de conectivi
 
 [Ver projeto](projetos/laboratorio-redes-basicas/README.md)
 
+### Manutenção Preventiva de Computadores
+
+Checklists e modelo de ordem de serviço para avaliar computadores Windows, registrar procedimentos e documentar recomendações.
+
+[Ver projeto](projetos/manutencao-preventiva-computadores/README.md)
+
 ## Conhecimentos complementares
 
 - Git e GitHub
