@@ -26,6 +26,12 @@ Guia de diagnóstico para problemas comuns do Windows, com perguntas de atendime
 
 [Ver projeto](projetos/troubleshooting-windows/README.md)
 
+### PowerShell Diagnóstico PC
+
+Scripts simples para coletar informações do sistema, verificar conectividade de rede e consultar espaço disponível em disco.
+
+[Ver projeto](projetos/powershell-diagnostico-pc/README.md)
+
 ## Conhecimentos complementares
 
 - Git e GitHub
