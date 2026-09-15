@@ -32,6 +32,12 @@ Scripts simples para coletar informações do sistema, verificar conectividade d
 
 [Ver projeto](projetos/powershell-diagnostico-pc/README.md)
 
+### Laboratório de Redes Básicas
+
+Cenários de estudo para praticar IPv4, gateway, DNS, DHCP e testes de conectividade em redes locais.
+
+[Ver projeto](projetos/laboratorio-redes-basicas/README.md)
+
 ## Conhecimentos complementares
 
 - Git e GitHub
