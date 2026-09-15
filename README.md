@@ -44,6 +44,12 @@ Checklists e modelo de ordem de serviço para avaliar computadores Windows, regi
 
 [Ver projeto](projetos/manutencao-preventiva-computadores/README.md)
 
+### Base de Conhecimento de Suporte
+
+Artigos e modelos para organizar chamados, orientar usuários e documentar soluções recorrentes de atendimento.
+
+[Ver projeto](projetos/base-conhecimento-suporte/README.md)
+
 ## Conhecimentos complementares
 
 - Git e GitHub
