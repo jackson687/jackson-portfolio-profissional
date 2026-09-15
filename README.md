@@ -20,17 +20,11 @@ Meu objetivo é demonstrar, por meio de projetos práticos e documentação, min
 
 ## Projetos práticos
 
-Novos laboratórios e materiais de suporte serão adicionados gradualmente a este portfólio.
+### Troubleshooting Windows
 
-Cada projeto terá:
+Guia de diagnóstico para problemas comuns do Windows, com perguntas de atendimento, procedimentos de investigação, soluções possíveis e critérios de encaminhamento.
 
-- Problema apresentado
-- Sintomas observados
-- Perguntas de diagnóstico
-- Procedimento de investigação
-- Solução aplicada
-- Cuidados e limitações
-- Critérios para encaminhamento ou escalação
+[Ver projeto](projetos/troubleshooting-windows/README.md)
 
 ## Conhecimentos complementares
 
