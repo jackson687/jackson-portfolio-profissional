@@ -1,6 +1,6 @@
-# J.M. Digital
+# J.M DIGITAL
 
-Portfólio comercial da **J.M. Digital**, marca de Jackson Monteiro para criação de sites profissionais e landing pages.
+Portfólio comercial da **J.M DIGITAL**, marca de Jackson Monteiro para criação de sites profissionais e landing pages.
 
 ## Serviços
 
@@ -19,4 +19,4 @@ Criar páginas modernas, rápidas e objetivas, com foco em apresentação profis
 - LinkedIn: https://www.linkedin.com/in/jackson-oliveira-550599194
 - GitHub: https://github.com/jackson687
 
-> Este repositório contém o portfólio oficial da J.M. Digital.
+> Este repositório contém o portfólio oficial da J.M DIGITAL.
