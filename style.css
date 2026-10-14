@@ -34,3 +34,12 @@ body{font-family:Inter,Arial,sans-serif;color:var(--text);background:#fff;line-h
 @media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero-showcase{min-height:380px}.profession-grid{grid-template-columns:repeat(3,1fr)}.examples-grid{grid-template-columns:1fr}.profession-heading,.examples-head,.footer-grid{flex-direction:column}.hand-note{display:none}.process-grid{grid-template-columns:1fr}.arrow{transform:rotate(90deg)}.footer-cta{text-align:left}}
 @media(max-width:560px){.container{width:min(100% - 24px,1180px)}.hero{padding-top:24px}.brand{margin-bottom:22px}.hero h1{font-size:2.7rem}.benefits{gap:14px}.hero-showcase{min-height:280px}.screen-body{height:230px;padding:34px 22px}.screen-body h3{font-size:1.45rem}.phone{width:105px;height:230px;right:-2px}.phone-body h4{font-size:.9rem}.profession-grid{grid-template-columns:repeat(2,1fr)}.profession-heading h2,.examples h2{font-size:2.1rem}.portfolio-page{min-height:230px;padding:26px 20px}.portfolio-copy{width:70%}.portfolio-copy h3{font-size:1.28rem}.portfolio-copy p{font-size:.64rem}.portfolio-top span{display:none}.professional-visual,.architecture-visual{opacity:.88}.portfolio-phone{width:72px;height:145px;right:-3px}.cta{width:100%;text-align:center}.footer-grid{align-items:stretch}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
+.services-overview{padding:54px 0 45px;background:#f5faff}
+.services-overview h2{font-size:clamp(1.8rem,3.5vw,2.8rem);line-height:1.13;letter-spacing:-.03em;max-width:760px}
+.services-overview h2 span{color:var(--blue)}
+.services-overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:28px}
+.service-overview-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:0 12px 24px rgba(2,44,88,.05)}
+.service-overview-icon{display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:12px;background:#e9f4ff;color:#0878e8;font-size:1.8rem;font-weight:700;margin-bottom:14px}
+.service-overview-card h3{font-size:1.3rem;line-height:1.25;margin-bottom:10px}
+.service-overview-card p{max-width:500px;color:var(--muted);line-height:1.6}
+@media(max-width:650px){.services-overview-grid{grid-template-columns:1fr}.service-overview-card{padding:23px}}
