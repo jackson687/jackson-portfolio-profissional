@@ -1,71 +1,22 @@
-# Jackson Monteiro
+# J.M. Digital
 
-## Suporte de TI | Help Desk | Suporte N1
+Portfólio comercial da **J.M. Digital**, marca de Jackson Monteiro para criação de sites profissionais e landing pages.
 
-Profissional formado em Sistemas de Informação, em transição para a área de Suporte de TI.
+## Serviços
 
-Meu objetivo é demonstrar, por meio de projetos práticos e documentação, minha capacidade de investigar problemas, orientar usuários e registrar soluções de forma organizada.
+- Landing pages profissionais
+- Sites institucionais
+- Páginas responsivas para celular
+- Projetos para profissionais da saúde, direito, engenharia e arquitetura, beleza e estética, finanças e consultoria e mercado imobiliário
 
-## Áreas de interesse
+## Proposta
 
-- Suporte técnico e Help Desk
-- Suporte N1 e atendimento ao usuário
-- Windows 10 e 11
-- Manutenção e configuração de computadores
-- Redes básicas, Wi-Fi, TCP/IP, DNS e DHCP
-- Microsoft 365 e Google Workspace
-- Suporte remoto
-- Diagnóstico e solução de problemas
-- Documentação técnica e base de conhecimento
-
-## Projetos práticos
-
-### Troubleshooting Windows
-
-Guia de diagnóstico para problemas comuns do Windows, com perguntas de atendimento, procedimentos de investigação, soluções possíveis e critérios de encaminhamento.
-
-[Ver projeto](projetos/troubleshooting-windows/README.md)
-
-### PowerShell Diagnóstico PC
-
-Scripts simples para coletar informações do sistema, verificar conectividade de rede e consultar espaço disponível em disco.
-
-[Ver projeto](projetos/powershell-diagnostico-pc/README.md)
-
-### Laboratório de Redes Básicas
-
-Cenários de estudo para praticar IPv4, gateway, DNS, DHCP e testes de conectividade em redes locais.
-
-[Ver projeto](projetos/laboratorio-redes-basicas/README.md)
-
-### Manutenção Preventiva de Computadores
-
-Checklists e modelo de ordem de serviço para avaliar computadores Windows, registrar procedimentos e documentar recomendações.
-
-[Ver projeto](projetos/manutencao-preventiva-computadores/README.md)
-
-### Base de Conhecimento de Suporte
-
-Artigos e modelos para organizar chamados, orientar usuários e documentar soluções recorrentes de atendimento.
-
-[Ver projeto](projetos/base-conhecimento-suporte/README.md)
-
-## Conhecimentos complementares
-
-- Git e GitHub
-- Markdown
-- PowerShell básico
-- Organização de procedimentos técnicos
-- Comunicação clara com usuários
-
-## Formação
-
-Sistemas de Informação
+Criar páginas modernas, rápidas e objetivas, com foco em apresentação profissional, confiança e geração de novos contatos.
 
 ## Contato
 
-- **GitHub:** [jackson687](https://github.com/jackson687)
-- **LinkedIn:** [Jackson Oliveira](https://www.linkedin.com/in/jackson-oliveira-550599194)
-- **E-mail:** [jackson.jmo05@gmail.com](mailto:jackson.jmo05@gmail.com)
+- E-mail: jackson.jmo05@gmail.com
+- LinkedIn: https://www.linkedin.com/in/jackson-oliveira-550599194
+- GitHub: https://github.com/jackson687
 
-> Este portfólio apresenta estudos, laboratórios e documentação prática. Não representa experiências profissionais que ainda não foram realizadas.
+> Este repositório contém o portfólio oficial da J.M. Digital.
